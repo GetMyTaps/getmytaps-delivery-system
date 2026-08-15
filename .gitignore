@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies/build
+node_modules/
+.vercel/
+.next/
+dist/
+
+# Customer data and uploads
+uploads/
+delivery-notes/
+customer-data/
+exports/
+*.customer.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
